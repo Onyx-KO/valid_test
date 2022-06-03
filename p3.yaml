@@ -27,6 +27,7 @@ spec:
       recursive: true
     - dir: /var/log/mysql/
       recursive: true
+      norecursive: false
     action: Audit
   process:
     severity: 10
