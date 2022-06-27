@@ -29,7 +29,7 @@ spec:
       recursive: true
     action: Audit
   process:
-    severity: 10
+    severity: 11
     matchPaths:
     - path: /usr/bin/mysqldump
-    action: Allow
+    action: Audit
